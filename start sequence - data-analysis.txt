@@ -1,0 +1,22 @@
+Open jupyter lab
+
+conda activate data-analysis
+cd kodningsprojekt/wikipedia-categories
+jupyter lab
+
+
+Run database search script
+
+conda activate data-analysis
+cd C:/Users/Fredi/kodningsprojekt/wikipedia-categories/workproduct-notebooks
+python Question-to-WikipediaCategory-linking.py
+
+
+
+
+Input for task scheduler (script and arguments) - this opens powershell with correct env and runs script
+
+%windir%\System32\WindowsPowerShell\v1.0\powershell.exe 
+-ExecutionPolicy ByPass -NoExit -Command "& 'C:\Users\Fredi\miniconda3\shell\condabin\conda-hook.ps1' ; conda run -n data-analysis python C:\Users\Fredi\kodningsprojekt\wikipedia-categories\workproduct-notebooks\Question-to-WikipediaCategory-linking.py"
+
+

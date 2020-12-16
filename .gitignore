@@ -1,5 +1,6 @@
 # workproduct files directories
 workproduct-files/
+final-files/
 *.log
 
 
