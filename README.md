@@ -1,6 +1,7 @@
 # Connecting cleaned data to metadata from Wikipedia based on keywords in trivia questions
 
-Enables automatic categorization of trivia questions (works reasonably well, much better than no category) and potential to use Wikipedia category info in search functionality.
+- Enables automatic categorization of trivia questions (works reasonably well, much better than no category) and potential to use Wikipedia category info in search functionality.
+- Repo also contains flow to create Triviadeck master data files and first static data file
 
 ### Comments
 See folders final-notebooks and source-data for workflow.
